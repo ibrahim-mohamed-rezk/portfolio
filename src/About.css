@@ -1,10 +1,7 @@
 .about{
     background: #191919;
 }
-img.about__img{
-    border-radius: 10px;
-    width: 100%;
-}
+
 h1.about__heading{
     margin-bottom: 10px;
     font-weight: 700;
