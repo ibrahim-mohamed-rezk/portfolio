@@ -56,19 +56,19 @@ function Home() {
           <div className="mobNavbar">
             <ul className="sidebar d__flex">
               <li className="sideNavbar">
-                <a href="#home">Home</a>
+                <a href="#Home">Home</a>
               </li>
               <li className="sideNavbar">
-                <a href="#about">About</a>
+                <a href="#About">About</a>
               </li>
               <li className="sideNavbar">
-                <a href="#services">Services</a>
+                <a href="#Services">Services</a>
               </li>
               <li className="sideNavbar">
-                <a href="#portfolio">Portfolio</a>
+                <a href="#Portfolio">Portfolio</a>
               </li>
               <li className="sideNavbar">
-                <a href="#contact">Contact</a>
+                <a href="#Contact">Contact</a>
               </li>
             </ul>
           </div>

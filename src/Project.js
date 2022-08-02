@@ -1,7 +1,7 @@
 import React from "react";
 import "./Project.css";
 import Project1 from './img/mysite.png';
-import Project2 from './img/portfolio-2.jpg';
+import Project2 from './img/toDoList.png';
 import Project3 from './img/portfolio-3.jpg';
 
 function Project() {
@@ -24,8 +24,8 @@ function Project() {
                      <div className="project__meta absolute">
                      <h5 className="project__text">My Portfolio</h5>
                      <h4 className="project__text">Getting tickets to the big show</h4>
-                     <a href="#Home" className="project__btn">Live show</a>
-                     <a href="#Home" className="project__btn">gethup link</a>
+                     <a target="blank" href="https://ibrahim-mohamed-1b223.web.app/" className="project__btn">Live show</a>
+                     <a target="blank" href="https://github.com/ibrahim-mohamed-rezk/portfolio" className="project__btn">github link</a>
                      </div>
                  </div>
              </div>
@@ -40,9 +40,10 @@ function Project() {
                          <div className="mask__effect"></div>
                      </div>
                      <div className="project__meta absolute">
-                     <h5 className="project__text">Development</h5>
+                     <h5 className="project__text">toDoList app</h5>
                      <h4 className="project__text">Getting tickets to the big show</h4>
-                     <a href="#Home" className="project__btn">View Details</a>
+                     <a target='blank' href="https://todoapp-675dd.web.app/" className="project__btn">View Details</a>
+                     <a target="blank" href="https://github.com/ibrahim-mohamed-rezk/toDoList.git" className="project__btn">github link</a>
                      </div>
                  </div>
              </div>
@@ -60,6 +61,7 @@ function Project() {
                      <h5 className="project__text">Development</h5>
                      <h4 className="project__text">Getting tickets to the big show</h4>
                      <a href="#Home" className="project__btn">View Details</a>
+                     <a target="blank" href="#Home" className="project__btn">github link</a>
                      </div>
                  </div>
              </div>
